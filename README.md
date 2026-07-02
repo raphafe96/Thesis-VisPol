@@ -29,7 +29,7 @@ Extract the contents and locate the executable:
 2. Navigate to the `test` folder
 3. Run `test.exe`
 4. **Important:** DO NOT use spaces or special characters in any folder names (neither where the executable is located nor in your working directory)
-5. No installation is required
+5. No installation is required - keep test.exe and _internal in the same directory.
 
 ---
 
@@ -37,7 +37,7 @@ Extract the contents and locate the executable:
 
 Due to the extensive GUI changes, the previous manual has been **temporarily replaced by the developer's thesis**. The thesis contains examples of outputs and inputs (serving as the old manual) in its final sections.
 
-📖 **Thesis & Documentation:** Available in the `.../_internal/Main_files` folder
+📖 **Thesis & Documentation:** Available in the `.../_internal/Main_files` folder - or downloaded/accessed directly via GUI.
 
 ---
 
@@ -51,14 +51,16 @@ The GruPol suite includes the following modules:
 
 ---
 
-The main branch contains the `test` folder (with `test.exe` and testing resources) and the `data` folders described below.
+The main branch contains the examples.zip (test folders 1 and 2). For validation folders consult the old interface with thesis results _old_thesis_all_files.zip.
 
-### Testing & Data Folders
+### Examples
 
 | Folder | Description |
 |--------|-------------|
 | **TEST FOLDER 1** | Contains a PDB file for running GruPol (atom labels must follow CHARMM force field). Examples of modified PDB files for devmode available upon request. |
 | **TEST FOLDER 2** | Contains a PolaBer output file for running CrysPol. The given CIF file provides necessary crystal symmetry information for testing. |
+
+### Data used for validation
 | **PROTEINS VALIDATION COORDINATES** | Coordinates of molecules used to benchmark GruPol. |
 | **DYNAMICS COORDINATES** | Coordinates for HH and SW myoglobins, as well as Alanine oligomers obtained via molecular dynamics. |
 | **TEST CHARGE COORDINATES** | Coordinates of three peptides used for testing the charged model in three different protonation states. |
