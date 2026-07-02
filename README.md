@@ -20,6 +20,8 @@ The newest version of GruPol is available here:
 
 🔗 **[Download GruPol (dist.zip)](https://github.com/raphafe96/Thesis-VisPol/blob/VisPol_new3/dist.zip)**
 
+(VisPol_new3 branch)
+
 Extract the contents and locate the executable:
 - **Executable:** `test.exe` (found in the `test` folder)
 
@@ -61,6 +63,8 @@ The main branch contains the examples.zip (test folders 1 and 2). For validation
 | **TEST FOLDER 2** | Contains a PolaBer output file for running CrysPol. The given CIF file provides necessary crystal symmetry information for testing. |
 
 ### Data used for validation
+| Folder | Description |
+|--------|-------------|
 | **PROTEINS VALIDATION COORDINATES** | Coordinates of molecules used to benchmark GruPol. |
 | **DYNAMICS COORDINATES** | Coordinates for HH and SW myoglobins, as well as Alanine oligomers obtained via molecular dynamics. |
 | **TEST CHARGE COORDINATES** | Coordinates of three peptides used for testing the charged model in three different protonation states. |
