@@ -59,7 +59,7 @@ The main branch contains the examples.zip (test folders 1 and 2). For validation
 
 | Folder | Description |
 |--------|-------------|
-| **TEST FOLDER 1** | Contains a PDB file for running GruPol (atom labels must follow CHARMM force field). Examples of modified PDB files for devmode available upon request. |
+| **TEST FOLDER 1** | Contains a PDB file for running GruPol/GFF. Examples of modified PDB files for devmode available upon request. |
 | **TEST FOLDER 2** | Contains a PolaBer output file for running CrysPol. The given CIF file provides necessary crystal symmetry information for testing. |
 
 ### Data used for validation
