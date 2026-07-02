@@ -6,7 +6,7 @@
 
 ## ⚠️ IMPORTANT NOTICE — GFF Module
 
-The GFF module is an independent molecular dynamics simulation **written and maintained by a single developer**. This module is currently **under active development, testing, and validation**. While it appears to function very well in our tests, **users should exercise caution** when interpreting results and report any unexpected behavior.
+The GFF module is an independent molecular dynamics simulation **written and maintained by a single developer - me**. This module is currently **under active development, testing, and validation**. While it appears to function very well in previous tests, **users should exercise caution** when interpreting results and report any unexpected behavior.
 
 **This is the new graphical interface version.** The GUI has undergone significant changes from previous releases.
 
@@ -45,8 +45,9 @@ Due to the extensive GUI changes, the previous manual has been **temporarily rep
 
 The GruPol suite includes the following modules:
 
-- **GFF** — An independent molecular dynamics simulation module for biomolecular polarizability calculations (under development/testing — see notice above)
-- **CrysPol** — Crystal polarizability calculations (incorporates PolaBer, which is third-party software not developed or maintained by the GruPol author)
+* **GruPol** — Database containing the polarizabilities and dipole moments of the building blocks of the 20 most common amino acids, heme B, water, and Na⁺/Cl⁻ ions.
+* **GFF** — Independent molecular dynamics simulation module for proteins in isolation or in an explicit solvent medium, supporting different protonation states and ion inclusion (see notice above).
+* **CrysPol** — Crystal polarizability calculation module that can incorporate PolaBer results (PolaBer is third-party software also included in the distribution).
 
 ---
 
@@ -71,7 +72,7 @@ If GruPol proves useful in your research, please cite the following publications
 ### Core GruPol Reference
 - **GruPol Main:** *J. Phys. Chem. B* **2024**, 128, 33, 7954–7965
 
-### GFF Module (ADIM Model)
+### ADIM Model
 - Ligório, R. F., Dos Santos, L. H., Krawczuk, A. "Iterative Implementation of the Dipole Interaction Model for Atomic Polarizabilities." *J. Comput. Chem.*, 46, e70158, **2025**
 
 ### Ion Effects
@@ -81,7 +82,7 @@ If GruPol proves useful in your research, please cite the following publications
 - Ligório, R. F., Rodrigues, J. L., Zuev, A., Dos Santos, L. H., Krawczuk, A. "Benchmarking a Dipole Moment and Distributed Polarizability Database for Biomolecules." *Phys. Chem. Chem. Phys.*, 24, 29495–29504, **2022**
 - Ligório, R. F., Rodrigues, J. L., Krawczuk, A., dos Santos, L. H. R. "A Building-Block Database of Distributed Polarizabilities and Dipole Moments to Estimate Optical Properties of Biomacromolecules in Isolation or in an Explicitly Solvated Medium." *J. Comput. Chem.*, 44, 745–754, **2022**
 
-### CrysPol Module (Crystal Polarizabilities)
+### Crystal Polarizabilities
 - Ligório, R. F., Krawczuk, A., dos Santos, L. H. R. "Accurate Atom–Dipole Interaction Model for Prediction of Electro-Optical Properties: From van der Waals Aggregates to Covalently Bonded Clusters." *J. Phys. Chem. A*, 125, 4152–4159, **2021**
 - Ligório, R. F., Krawczuk, A., dos Santos, L. H. R. "Crystal Field Effects on Atomic and Functional-Group Distributed Polarizabilities of Molecular Materials." *J. Phys. Chem. A*, 124, 10008–10018, **2020**
 
