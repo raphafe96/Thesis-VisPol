@@ -20,6 +20,8 @@ The newest version of GruPol is available here:
 
 🔗 **[Download GruPol (dist.zip)](https://github.com/raphafe96/Thesis-VisPol/blob/VisPol_new3/dist.zip)**
 
+(VisPol_new3 branch)
+
 Extract the contents and locate the executable:
 - **Executable:** `test.exe` (found in the `test` folder)
 
