@@ -6,7 +6,7 @@
 
 ## ⚠️ IMPORTANT NOTICE — GFF Module
 
-The GFF module is an independent molecular dynamics simulation **written and maintained by a single developer - me**. This module is currently **under active development, testing, and validation**. While it appears to function very well in previous tests, **users should exercise caution** when interpreting results and report any unexpected behavior.
+The GFF module is an independent molecular dynamics simulation **written (mostly) and maintained by a single developer - me**. This module is currently **under active development, testing, and validation**. While it appears to function very well in previous tests, **users should exercise caution** when interpreting results and report any unexpected behavior.
 
 **This is the new graphical interface version.** The GUI has undergone significant changes from previous releases.
 
